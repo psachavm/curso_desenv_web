@@ -1,3 +1,4 @@
+//Arquivo adicionado ao github
 //Definindo objeto com New Object
 console.log("## Teste 1 - Definindo objeto com New Object ")
 console.log("")
