@@ -1,5 +1,6 @@
 const modCalc = require('./moduloCalculo')
 const modValores = require('./constantes')
+const _ = require('lodash')
 
 console.log(">>> Iniciando testes com módulos.")
 console.log(" ")
@@ -8,6 +9,9 @@ console.log("modValores = " + modValores)
 console.log(" ")
 console.log("## Soma ## ")
 console.log(`A soma de ${modValores.Valor1} e ${modValores.Valor2} é: ${modCalc.Soma(modValores.Valor1,modValores.Valor2)}`)
+console.log(" ")
+console.log("## Subtração ## ")
+console.log(`A diferença de ${modValores.Valor1} e ${modValores.Valor2} é: ${modCalc.Subtrai(modValores.Valor1,modValores.Valor2)}`)
 console.log(" ")
 
 console.log("## Multiplicação ## ")
