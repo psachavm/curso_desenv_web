@@ -1,3 +1,7 @@
+module.exports.Valor1 = 23
+module.exports.Valor2 = 8
+exports.Valor3 = 5
+
 module.exports = {
     Soma (a, b) {
         return a + b
